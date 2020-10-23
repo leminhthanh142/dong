@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+:root {
+    --font-family-1: 'Lato', sans-serif;
+    --font-family-2: 'Pathway Gothic One', sans-serif;
+    --font-family-3: 'Oswald', sans-serif;
+}
+html {
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    background: rgb(50,50,50);
+}
+.box {
+    width: 80%;
+    margin: 0 auto;
+}
+p {
+    font-family: var(--font-family-3);
+    color: rgb(170,170,170);
+    margin: 14px 0;
+}
+a, span {
+    font-family: var(--font-family-3);
+    color: rgb(170,170,170);
+}
+span {
+    font-style: italic;
+}
+h1 {
+    font-size: 450%;
+    color: white;
+    letter-spacing: 12px;
+    font-family: var(--font-family-3);
+}
+h2 {
+    font-family: var(--font-family-3);
+    color: white;
+    font-size: 150%;
+    font-style: italic;
+    letter-spacing: 6px;
+}
+h3 {
+    font-family: var(--font-family-3);
+    color: rgb(210,210,210);
+    font-size: 140%;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+header {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                        url("https://images.unsplash.com/photo-1542395975-d6d3ddf91d6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+header:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    background: rgb(50,50,50);
+}
+header:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    background: rgb(50,50,50);
+}
+.header {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 60px;
+    background: rgb(50,50,50);
+}
+.menu a {
+    margin: 0 30px;
+    color: rgb(130,130,130);
+    position: relative;
+    padding: 4px 0;
+    font-family: var(--font-family-2);
+}
+.menu a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 20px;
+    background: rgb(130,130,130);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.4s;
+    bottom: 0;
+    left: 0;
+}
+.menu a:hover:after {
+    transform: scaleX(1);
+}
+.summary {
+    padding: 40px 0;
+    color: rgb(130,130,130);
+}
+.preamble, .participation, .benefits, .requirements, .explanation {
+    padding: 30px 0;
+}
+
+.main-supporting {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,.7)),
+    url("https://images.unsplash.com/photo-1542909588-66492252c919?ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.download a {
+    padding: 10px;
+    transition: 0.3s;
+}
+.download a:hover {
+    background: rgba(70,70,70);
+}
+.wrapper {
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
+    url("https://images.unsplash.com/photo-1542806109-e88b46573e79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjQzMzEwfQ&auto=format&fit=crop&w=1950&q=80");
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: space-between;
+    padding: 40px 80px;
+    border-top: 1px solid rgba(0,0,0,0.07);
+    font-size: 80%;
+}
+
+.design-selection ul li,
+.zen-resources ul li,
+.design-archives ul li {
+    margin: 8px 0;
+}
+
+.design-selection ul li span {
+    font-style: italic;
+    font-size: 75%;
+    margin: 0 3px;
+}
+
+.design-selection ul li a,
+.zen-resources ul li a,
+.design-archives ul li a {
+    color: rgb(150,150,150);
+}
+
+.design-selection ul li a:hover,
+.zen-resources ul li a:hover,
+.design-archives ul li a:hover {
+    color: rgb(200,200,200);
+}
+
+.indicator {
+    font-size: 120%;
+    transition: 0.4s;
+}
+.next a:hover span {
+    transform: translateX(10px);
+}
+.bar {
+    position: fixed;
+    right: 30px;
+    top: 25px;
+    display: none;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.bar-1, .bar-2, .bar-3 {
+    width: 25px;
+    height: 3px;
+    margin: 3px 0;
+    border-radius: 20px;
+    background: rgb(130,130,130);
+}
+#chk:checked ~ ul {
+    top: 0;
+}
+
+.contentinfo {
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+footer {
+    padding: 20px 0;
+}
+.icon {
+    text-align: center;
+}
+.icon a {
+    margin: 20px 10px;
+    font-size: 150%;
+}
+.icon a i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(130,130,130);
+}
+
+
+@media screen and (max-width: 1000px) {
+    html {
+        font-size: 19px;
+    }
+    header h1 {
+        font-size: 450%;
+    }
+    header h2 {
+        font-size: 150%;
+    }
+    .icon a {
+        font-size: 140%;
+    }
+    .icon a i {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .wrapper {
+        padding: 30px 60px;
+    }
+}
+@media screen and (max-width: 800px){
+    html {
+        font-size: 17px;
+    }
+    .box {
+        width: 90%;
+    }
+    header h1 {
+        font-size: 380%;
+    }
+    header h2 {
+        font-size: 120%;
+    }
+    h3 {
+        font-size: 150%;
+    }
+    p, a {
+        font-size: 90%;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .design-selection nav li {
+        display: inline-block;
+        width: 30%;
+        margin: 10px 10px 20px 0;
+    }
+    .zen-resources ul li {
+        display: inline-block;
+        width: 30%;
+        margin: 10px 10px 20px 0;
+    }
+    .bar {
+        display: block;
+    }
+    .menu {
+        position: fixed;
+        top: -100vh;
+        right: 0;
+        z-index: 10;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: rgb(50,50,50);
+        transition: 0.3s;
+    }
+    .menu a {
+        margin: 10px 0;
+        font-size: 120%;
+    }
+    .menu a:after {
+        transform-origin: center;
+    }
+    .icon a {
+        font-size: 130%;
+    }
+    .icon a i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .wrapper {
+        padding: 20px 40px;
+    }
+}
+@media screen and (max-width: 450px){
+    .design-selection nav li {
+        width: 100%;
+    }
+    .zen-resources ul li {
+        width: 100%;
+    }
+    header h1 {
+        font-size: 300%;
+    }
+    header h2 {
+        font-size: 100%;
+    }
+    .icon a {
+        font-size: 100%;
+    }
+    .icon a i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}

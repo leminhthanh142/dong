@@ -1,0 +1,392 @@
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*body {*/
+/*    color: #325050;*/
+/*    background-color: #fff;*/
+/*}*/
+/*html {*/
+/*    line-height: 2;*/
+/*    font-size: 20px;*/
+/*    text-rendering: optimizeLegibility;*/
+/*}*/
+/*.menu {*/
+/*    float: right;*/
+/*    line-height: 100px;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*.menu a {*/
+/*    color: #fff;*/
+/*    padding: 0px 10px;*/
+/*    text-decoration: none;*/
+/*    transition: 0.4s;*/
+/*}*/
+
+/*.show-menu-btn,*/
+/*.hide-menu-btn {*/
+/*    transition: 0.4s;*/
+/*    font-size: 30px;*/
+/*    cursor: pointer;*/
+/*    display: none;*/
+/*}*/
+
+/*.show-menu-btn {*/
+/*    float: right;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.show-menu-btn i {*/
+/*    line-height: 100px;*/
+/*}*/
+
+/*.menu a:hover,*/
+/*.show-menu-btn:hover,*/
+/*.hide-menu-btn:hover {*/
+/*    color: #3498db;*/
+/*}*/
+
+/*#chk {*/
+/*    position: absolute;*/
+/*    visibility: hidden;*/
+/*    z-index: -1111;*/
+/*}*/
+/*header {*/
+/*    text-align: center;*/
+/*    background-image: url(gridlines-opaque.png), url(contours-opaque.png), url(huntington.jpg), url(koi.jpg);*/
+/*    display: flex;*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.title-name {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*    text-align: center;*/
+/*    align-items: center;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*header h1 {*/
+/*    font-weight: 100;*/
+/*    color: #fff;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*    letter-spacing: 2px;*/
+/*    font-size: 300%;*/
+/*}*/
+
+/*header h2 {*/
+/*    font-style: italic;*/
+/*    font-weight: 400;*/
+/*    padding: 5px 0 30px 0;*/
+/*    font-size: 1.6em;*/
+/*    color: rgba(255, 255, 255, 0.6);*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*    letter-spacing: 2px;*/
+/*}*/
+
+
+/*!* Style for "The road to enlightenment" & "So what is it about"  *!*/
+
+/*.container {*/
+/*    display: flex;*/
+/*    !*text-align: justify;*!*/
+/*}*/
+/*.box {*/
+/*    width: 70%;*/
+/*    margin: 0 auto;*/
+/*}*/
+/*p {*/
+/*    text-align: justify;*/
+/*}*/
+/*.left-hand {*/
+/*    width: 80%;*/
+/*    padding: 40px 0;*/
+/*}*/
+
+/*.left-hand h3 {*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*    font-size: 200%;*/
+/*    font-weight: 100;*/
+/*    letter-spacing: 2px;*/
+/*}*/
+
+/*.right-hand {*/
+/*    width: 20%;*/
+/*    padding: 50px;*/
+/*    background-color: #c0cac3;*/
+/*}*/
+
+/*.summary p {*/
+/*    margin: 10px;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.summary a {*/
+/*    cursor: pointer;*/
+/*    color: #809b7e;*/
+/*    text-decoration: none;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*.summary a:hover {*/
+/*    background-color: #0d8ba1;*/
+/*    transition: all 0.25s linear;*/
+/*    color: #fff;*/
+/*    border: 1px #0d8ba1 solid;*/
+/*}*/
+
+/*.explanation p {*/
+/*    padding: 8px;*/
+/*    font-size: 18px;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*}*/
+
+
+/*!* Style for "Participation" & "Benefits *!*/
+
+/*.main-supporting {*/
+/*    background: url(bamboo.png);*/
+/*    display: flex;*/
+/*    padding: 40px 0;*/
+/*}*/
+
+/*.participation h3 {*/
+/*    text-transform: uppercase;*/
+/*    font-size: 200%;*/
+/*    font-weight: 100;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*}*/
+
+/*.participation p {*/
+/*    padding: 10px 70px 0 10px;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.participation a {*/
+/*    color: #0d8ba1;*/
+/*    cursor: pointer;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.participation a:hover {*/
+/*    width: 100%;*/
+/*    transition: 0.25s linear;*/
+/*    border-bottom: 1px solid #0d8ba1;*/
+/*}*/
+
+/*.participation {*/
+/*    width: 80%;*/
+/*    text-align: justify;*/
+/*}*/
+
+/*.side-bar-2 {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin: 0 auto;*/
+/*    flex-direction: column;*/
+/*    font-size: 24px;*/
+/*    width: 20%;*/
+/*    padding: 100px 0 0 20px;*/
+/*}*/
+
+/*.benefits {*/
+/*    background: url(bamboo.png);*/
+/*    padding: 40px 0;*/
+/*    background-color: #8abc9f80;*/
+/*}*/
+
+/*.benefits h3 {*/
+/*    text-transform: uppercase;*/
+/*    font-weight: 100;*/
+/*    font-size: 200%;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*}*/
+
+/*.benefits p {*/
+/*    padding: 20px 370px 0 10px;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*    font-size: 18px;*/
+/*}*/
+
+
+/*!* Style for requirements *!*/
+
+/*.container2 {*/
+/*    display: flex;*/
+/*}*/
+
+/*.requirements {*/
+/*    padding: 40px 0;*/
+/*    width: 80%;*/
+/*}*/
+
+/*.right-side {*/
+/*    width: 20%;*/
+/*    background-color: #c0cac3;*/
+/*    padding: 50px;*/
+/*}*/
+
+/*.requirements h3 {*/
+/*    text-transform: uppercase;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*    font-size: 200%;*/
+/*    font-weight: 100;*/
+/*}*/
+
+/*.requirements p {*/
+/*    margin: 10px;*/
+/*    font-size: 18px;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*}*/
+
+/*.requirements a {*/
+/*    color: #0d8ba1;*/
+/*    cursor: pointer;*/
+/*    text-decoration: none;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*}*/
+
+/*.requirements a:hover {*/
+/*    border-bottom: 1px #0d8ba1 solid;*/
+/*}*/
+
+
+/*!* Style for contentinfo *!*/
+
+/*.contentinfo {*/
+/*    background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(koi.jpg);*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 240px;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.contentinfo a {*/
+/*    color: rgba(255, 255, 255, 0.6);*/
+/*    cursor: pointer;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.contentinfo a:hover {*/
+/*    border-bottom: 3px rgba(255, 255, 255, 0.6) solid;*/
+/*}*/
+
+/*.contentinfo p {*/
+/*    font-size: 42px;*/
+/*    color: rgba(255, 255, 255, 0.3);*/
+/*    font-style: italic;*/
+/*    margin: 0 auto;*/
+/*    text-align: center;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*}*/
+
+/*.requirements .contentinfo p a {*/
+/*    color: rgba(255, 255, 255, 0.7);*/
+/*}*/
+
+/*.requirements .contentinfo p a:hover {*/
+/*    border-bottom: 2px rgba(255, 255, 255, 0.7) solid;*/
+/*    color: rgba(255, 255, 255, 0.7);*/
+/*}*/
+
+
+/*!* Style for footer *!*/
+
+/*footer {*/
+/*    color: #fff;*/
+/*    background-color: #134347;*/
+/*    width: 100%;*/
+/*    height: 120px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    margin: 0 auto;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.icon {*/
+/*    padding: 0;*/
+/*    font-size: 200%;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.icon a {*/
+/*    color: rgba(255, 255, 255, 0.5);*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.icon i {*/
+/*    margin: 0 20px;*/
+/*    width: 70px;*/
+/*    height: 70px;*/
+/*    border-radius: 50%;*/
+/*    cursor: pointer;*/
+/*    transition: 0.3s ease-in-out;*/
+/*    line-height: 70px;*/
+/*}*/
+
+/*.icon i:hover {*/
+/*    background-color: rgba(255, 255, 255, 0.5);*/
+/*    color: #333;*/
+/*}*/
+
+
+/*!* Style for side bar and author name *!*/
+
+/*.author-name {*/
+/*    margin-bottom: 15px;*/
+/*    position: relative;*/
+/*    padding: 10px 0;*/
+/*}*/
+
+/*.author-name a {*/
+/*    transition: 0.3s;*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.author-name a:first-child {*/
+/*    color: rgba(0, 0, 0, 0.7);*/
+/*    font-size: 110%;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.author-name a:last-child {*/
+/*    color: rgba(0, 0, 0, 0.7);*/
+/*    font-style: italic;*/
+/*    font-size: 80%;*/
+/*}*/
+
+/*.author-name a:hover {*/
+/*    color: #0d8ba1;*/
+/*}*/
+
+/*.author-name span {*/
+/*    cursor: pointer;*/
+/*    font-size: 80%;*/
+/*    color: rgba(0, 0, 0, 0.7);*/
+/*    font-family: 'Indie Flower', cursive;*/
+/*}*/
+
+/*.author-name a::after {*/
+/*    position: absolute;*/
+/*    content: " ";*/
+/*    height: 1px;*/
+/*    background-color: #a9b995;*/
+/*    width: 60%;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*}*/
